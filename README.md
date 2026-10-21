@@ -103,6 +103,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [vgpu](https://github.com/vercel-labs/vgpu) | Shader experiments; reference material |
 | [Meetily](https://github.com/Zackriya-Solutions/meetily) | Local meeting transcription app (MIT; Windows installer: https://github.com/Zackriya-Solutions/meetily/releases); a different category from the rest of this list |
 | [OpenAlternative](https://github.com/piotrkulpinski/openalternative) | Directory website (openalternative.co) for finding open-source alternatives to paid software; browse without signing up |
+| [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | Prompt gallery for short videos made with code animation (HTML Canvas, SVG, Three.js - not AI diffusion footage); its maintainer counts 700+ prompts with original-vs-remake pairs, free to read at skillry.dev/ai-videos/opus-5-5 with no account (optional premium separate). Reference only - prompts are not independently tested, and the MIT licence covers the list, not reposting the credited creators' videos |
 
 ---
 
