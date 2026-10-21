@@ -72,7 +72,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [Skills CLI](https://github.com/vercel-labs/skills) | The `npx skills add` installer used by most skills in this list; includes the find-skills skill | `npx skills add https://github.com/vercel-labs/skills` | Free code |
 | [9Router](https://github.com/decolua/9router) | Routes between AI providers with fallback. Video claims of "unlimited free Claude" are overstated | `npm install -g 9router` | Free code |
 | [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Puts many free-tier AI APIs behind one local endpoint | `npm install -g omniroute` | Free code |
-| [rea](https://github.com/morluto/rea) | Reverse-engineering toolkit for agents. Install only from morluto/rea or rea.tools (its own warning); needs Node 22, 24 or 26 | `npx rea-agents setup` | Free code |
+| [rea](https://github.com/morluto/rea) | Reverse-engineering toolkit for agents. Install only from morluto/rea or rea.tools (its own warning); needs Node 22, 24 or 26 (24.11+ in the 24.x line) | `npx rea-agents@latest setup` - during setup select your agent (for example Claude Code), review the changes and approve | Free code; optional Hopper install can be skipped |
 | [Claude Code Templates](https://github.com/davila7/claude-code-templates) | Collection of agents, commands, hooks and project templates for Claude Code. Pick add-ons for a specific problem; don't install everything | `npx claude-code-templates@latest` | Free code; some add-ons connect to paid services or need separate API keys |
 
 ## Design and UI skills
