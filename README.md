@@ -40,6 +40,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 |---|---|---|---|
 | [GSAP](https://github.com/greensock/GSAP) | Smooth timeline and text animation for web pages | `npm install gsap` | Free, including commercial use |
 | [Anime.js](https://github.com/juliangarnier/anime) | Lightweight web and interface animation | `npm install animejs` | MIT |
+| [Motion](https://github.com/motiondivision/motion) | Web and React animation library (formerly Framer Motion) | `npm install motion` | MIT; optional Motion+ add-ons are paid |
 | [Rive](https://github.com/rive-app/rive-wasm) | Interactive animation runtime for web and apps | `npm install @rive-app/canvas` | Runtime MIT; the Rive editor needs a paid plan to export .riv files |
 | [Three.js](https://github.com/mrdoob/three.js) | 3D scenes in the browser | `npm install three` | MIT |
 | [React Three Fiber](https://github.com/pmndrs/react-three-fiber) | Three.js through React components | `npm install @react-three/fiber` | MIT |
@@ -80,7 +81,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | Tool | What it does | Install | Licence / cost |
 |---|---|---|---|
 | [Design DNA](https://github.com/zanwei/design-dna) | Agent analyses a reference design's layout, fonts and colours | `npx skills add zanwei/design-dna -a claude-code -g -y` | MIT |
-| [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | UI/UX skill pack for many coding assistants | `npm install -g ui-ux-pro-max-cli` then `uipro init --ai claude` | Free code |
+| [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | UI/UX skill pack for many coding assistants. Needs Python 3 for its search script | In Claude Code: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` then `/plugin install ui-ux-pro-max@ui-ux-pro-max-skill`; or `npm install -g ui-ux-pro-max-cli` then `uipro init --ai claude` | MIT |
 | [Emil Kowalski's skills](https://github.com/emilkowalski/skills) | Animation easing and UI design guidance skills, including apple-design (UI motion and typography polish) | `npx skills@latest add emilkowalski/skills` | Free code |
 | [Replica skills](https://github.com/Jakeschincariol/replica-skill) | Eleven skills that clone an app's design and rebuild it | In Claude Code: `/plugin marketplace add Jakeschincariol/replica-skill` | MIT |
 
@@ -104,6 +105,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [Meetily](https://github.com/Zackriya-Solutions/meetily) | Local meeting transcription app (MIT; Windows installer: https://github.com/Zackriya-Solutions/meetily/releases); a different category from the rest of this list |
 | [OpenAlternative](https://github.com/piotrkulpinski/openalternative) | Directory website (openalternative.co) for finding open-source alternatives to paid software; browse without signing up |
 | [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | Prompt gallery for short videos made with code animation (HTML Canvas, SVG, Three.js - not AI diffusion footage); its maintainer counts 700+ prompts with original-vs-remake pairs, free to read at skillry.dev/ai-videos/opus-5-5 with no account (optional premium separate). Reference only - prompts are not independently tested, and the MIT licence covers the list, not reposting the credited creators' videos |
+| [21st.dev](https://21st.dev) | Marketplace of ready-made UI components for agent-built sites; browsing and search are free, the free tier allows 2 component code retrievals or installs a day; its AI generation features are paid |
 
 ---
 
