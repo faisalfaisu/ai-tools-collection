@@ -46,6 +46,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [Three.js](https://github.com/mrdoob/three.js) | 3D scenes in the browser | `npm install three` | MIT |
 | [React Three Fiber](https://github.com/pmndrs/react-three-fiber) | Three.js through React components | `npm install @react-three/fiber` | MIT |
 | [Satori](https://github.com/vercel/satori) | Static SVG title cards from HTML-like code (images, not video) | `npm install satori` | MPL-2.0 |
+| [ThreeUI](https://github.com/MengTo/threeui) | Three.js / WebGL / React landing-page templates, hero sections and shader components with editable source - website UI, not video editing | `npm install @designcodeio/threeui` | Community library MIT (164 free components, no login; bundled fonts under SIL OFL 1.1); the full ThreeUI Pro catalog is a separate paid plan ($199/year or $299 lifetime at time of checking) |
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Video export, encoding and resizing - the engine many tools here rely on | Windows builds from ffmpeg.org, or `winget install ffmpeg` | LGPL/GPL - read the licence for distribution |
 
 ## Voice and narration apps
