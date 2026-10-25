@@ -116,6 +116,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [OpenAlternative](https://github.com/piotrkulpinski/openalternative) | Directory website (openalternative.co) for finding open-source alternatives to paid software; browse without signing up |
 | [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) | Prompt gallery for short videos made with code animation (HTML Canvas, SVG, Three.js - not AI diffusion footage); its maintainer counts 700+ prompts with original-vs-remake pairs, free to read at skillry.dev/ai-videos/opus-5-5 with no account (optional premium separate). Reference only - prompts are not independently tested, and the MIT licence covers the list, not reposting the credited creators' videos |
 | [21st.dev](https://21st.dev) | Marketplace of ready-made UI components for agent-built sites; browsing and search are free, the free tier allows 2 component code retrievals or installs a day; its AI generation features are paid |
+| [official-mcp-servers](https://github.com/VoltAgent/official-mcp-servers) | Directory (not an installed tool) of MCP servers published by the companies behind the products, plus widely used open-source ones, for wiring a coding agent to real services. Each server connects to its own service - that service's account, costs and the permissions you grant apply |
 
 ---
 
