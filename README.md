@@ -129,6 +129,8 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill) | Eleven Claude skills with plain-Python tools for US-stock day-trading research (scanner, news, entry/exit rules, simulation, risk checks); free code, reads unofficial Yahoo Finance data that can lag or rate-limit. Its Time Machine simulation resamples 60 days of 5-minute candles - no fee or slippage adjustment, and its stop-gap model can understate losses. Broker execution is separate (Alpaca connector, paper trading by default) |
 | [tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | Connects Claude Code to your locally running TradingView Desktop app (via Chrome DevTools debug port 9222) for AI-assisted chart analysis, Pine Script work and replay practice; unofficial and unaffiliated with TradingView. It does not execute real trades. Uses undocumented internal APIs that can break on any TradingView update, and enabling the debug port is a deliberate manual step | Needs Node 18+ and TradingView Desktop running with `--remote-debugging-port=9222`; install per its README | Own source code MIT (its README's licence section); requires a paid TradingView subscription for real-time data - not a free route |
 
+Trading notes from shared videos (stock-analysis prompt, document list, clone command): [TRADING.md](TRADING.md)
+
 ---
 
 Notes:
