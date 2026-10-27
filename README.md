@@ -60,6 +60,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 |---|---|---|---|
 | [VoiceStudio](https://github.com/debpalash/VoiceStudio) | Local voice cloning, narration, dubbing and transcription. Windows; needs several GB of disk for models | Windows installer (.exe): https://github.com/debpalash/VoiceStudio/releases (one-line PowerShell installer also documented) | Free code |
 | [Voicebox](https://github.com/jamiepine/voicebox) | Local text-to-speech and voice cloning with 8 engines | Windows/Mac/Linux installers: https://github.com/jamiepine/voicebox/releases or https://voicebox.sh | MIT |
+| [Earshot](https://github.com/Leonxlnx/earshot) | Local audio analysis and sound-effects tool for coding agents (CLI, Python API and MCP server, plus earshot and real-sound agent skills): identifies and ranks sounds, measures loudness and clipping, checks whether hits land on picture cuts, and renders code-generated clicks/whooshes/hits aimed at scene moments. Analysis commands download about 1.1GB of models on first use (measure/sfx/kit load none); it does not replace listening by ear and does not check the licences of source recordings | Clone + Python 3.10+ venv: `pip install torch` (CPU wheel) then `pip install -e ".[mcp,llm,dev]"`; needs FFmpeg/ffprobe on PATH; Claude Code MCP: `claude mcp add earshot --scope user ...`; Windows paths documented, not tested by us | MIT; optional Gemini llm critique needs a separate API key and uploads audio - skip it |
 
 ## AI agents and assistants
 
