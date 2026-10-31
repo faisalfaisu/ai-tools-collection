@@ -2,7 +2,7 @@
 
 A curated collection of AI tools and agent skills: video and animation, voice, personal agents, coding helpers and design. Every entry links to the official repository and its documented install method.
 
-Documentation for each project was checked on 17-20 October 2026 (latest additions 20 October). The tools are not independently tested here, so read each repo's own README before running anything - agent skills can run code on your machine.
+Documentation for each project was checked on 17-20 and 31 October 2026 (latest addition 31 October). The tools are not independently tested here, so read each repo's own README before running anything - agent skills can run code on your machine.
 
 About cost: the code in every listed repo is free unless noted, but your own AI assistant usage (Claude Pro, API credits) is separate, and a few tools need paid third-party APIs. Those are flagged in the Licence / cost column.
 
@@ -84,6 +84,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 
 | Tool | What it does | Install | Licence / cost |
 |---|---|---|---|
+| [agent-qa](https://github.com/vostride/agent-qa) | Natural-language web/mobile QA through CLI/MCP, with persistent memidex memory, validated self-improvement and reviewable evidence ([website](https://vostride.com)) | `npm install -D agent-qa`; follow the [quickstart](https://vostride.com/docs/agent-qa/quickstart) for browser, project and model setup; needs Node 24+ and target/device access | FSL-1.1-ALv2; local package free to install, model and external-service costs separate |
 | [Skills CLI](https://github.com/vercel-labs/skills) | The `npx skills add` installer used by most skills in this list; includes the find-skills skill | `npx skills add https://github.com/vercel-labs/skills` | Free code |
 | [9Router](https://github.com/decolua/9router) | Routes between AI providers with fallback. Video claims of "unlimited free Claude" are overstated | `npm install -g 9router` | Free code |
 | [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Puts many free-tier AI APIs behind one local endpoint | `npm install -g omniroute` | Free code |
@@ -141,6 +142,6 @@ Trading notes from shared videos (stock-analysis prompt, document list, clone co
 ---
 
 Notes:
-- Install commands come from each project's own README, checked 17-20 October 2026. These projects move fast; if a command fails, check the repo first.
+- Install commands come from each project's official documentation, checked 17-20 and 31 October 2026. These projects move fast; if a command fails, check the repo first.
 - `npx skills add` is the Skills CLI; its newer versions ask for Node.js 22.20 or later (per the Anatomy repo's README).
 - Ignore star counts quoted in reels and videos; judge by features, licence and cost.
