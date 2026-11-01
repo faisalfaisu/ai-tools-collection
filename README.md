@@ -53,6 +53,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [Satori](https://github.com/vercel/satori) | Static SVG title cards from HTML-like code (images, not video) | `npm install satori` | MPL-2.0 |
 | [ThreeUI](https://github.com/MengTo/threeui) | Three.js / WebGL / React landing-page templates, hero sections and shader components with editable source - website UI, not video editing | `npm install @designcodeio/threeui` | Community library MIT (164 free components, no login; bundled fonts under SIL OFL 1.1); the full ThreeUI Pro catalog is a separate paid plan ($199/year or $299 lifetime at time of checking) |
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Video export, encoding and resizing - the engine many tools here rely on | Windows builds from ffmpeg.org, or `winget install ffmpeg` | LGPL/GPL - read the licence for distribution |
+| [Bang Motion](https://github.com/bangtutorial/bang-motion) | Claude Code skill that builds motion graphics (openers, promos, product demos, explainers, kinetic typography) as one self-playing index.html; 16:9 or 9:16, optional voice-over sync | `/plugin marketplace add bangtutorial/bang-motion`, or git clone into `~/.claude/skills` | MIT; optional MP4 export needs Node + puppeteer + ffmpeg |
 
 ## Voice and narration apps
 
