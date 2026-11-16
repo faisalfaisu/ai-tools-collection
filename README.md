@@ -152,6 +152,7 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [Theatre.js](https://github.com/theatre-js/theatre) | Motion-design editor and JS animation library for websites and 3D scenes; a design/development tool for web projects, not an AI generator (Apache-2.0) |
 | [SVG.js](https://github.com/svgdotjs/svg.js) | Lightweight JavaScript library for manipulating and animating SVG in web pages; a coding library, not an AI generator (MIT) |
 | [Meshy](https://www.meshy.ai) | Hosted AI 3D model generation (text or image to 3D model), not a repo. Free plan per its pricing page: 100 credits/month (up to 10 assets), basic features, CC BY 4.0 licence (commercial use with attribution); paid plans from $20/month |
+| [Mister Download Manager](https://github.com/anefzaoui/misterdownloadmanager) | Free, open-source download manager (Rust, GPL-3.0) for Windows, Linux and macOS - regular downloads plus torrent/magnet links, with no account; a different category from the rest of this list. Very new (repo created 29 October 2026): its speed claims are unverified, the macOS build is marked experimental in the repo, and Windows may show a SmartScreen warning on the unsigned early build |
 
 Trading notes from shared videos (stock-analysis prompt, document list, clone command): [TRADING.md](TRADING.md)
 
