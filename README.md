@@ -166,6 +166,8 @@ These came from a shared reel. They are building blocks an agent can use inside 
 | [Meshy](https://www.meshy.ai) | Hosted AI 3D model generation (text or image to 3D model), not a repo. Free plan per its pricing page: 100 credits/month (up to 10 assets), basic features, CC BY 4.0 licence (commercial use with attribution); paid plans from $20/month |
 | [Mister Download Manager](https://github.com/anefzaoui/misterdownloadmanager) | Free, open-source download manager (Rust, GPL-3.0) for Windows, Linux and macOS - regular downloads plus torrent/magnet links, with no account; a different category from the rest of this list. Very new (repo created 29 October 2026): its speed claims are unverified, the macOS build is marked experimental in the repo, and Windows may show a SmartScreen warning on the unsigned early build |
 
+| [mirroir-mcp](https://github.com/jfarcand/mirroir-mcp) | Lets an agent (Claude Code, Codex and other MCP clients) read your iPhone screen, tap, swipe and type through Apple's iPhone Mirroring, with nothing installed on the phone. Needs a Mac with macOS 15+, so it is not a direct Windows solution (a Windows agent can only reach it over SSH to that Mac). Read-only tools by default and input enabled separately, but its own docs say the app-blocking list has gaps - no payment or send safety guarantee. Apache-2.0 |
+
 Trading notes from shared videos (stock-analysis prompt, document list, clone command): [TRADING.md](TRADING.md)
 
 ---
